@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+	  <meta charset="utf-8">
+	  <title>CSS GPU Animation at 60fps</title>
+	  <meta name="description" content="CSS GPU Animation at 60fps">
+	  <meta name="author" content="Sara de Souza">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <link rel="stylesheet" href="style.css">
+	  <link href="https://fonts.googleapis.com/css?family=Alice|Roboto:400,500&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+
+		<div class="layout--wrap">
+			<div class="layout">
+				<div class="header">
+					<h1>Smooth CSS GPU Animation</h1>
+					<div id="cta-menu" class="menu-icon">
+						Launch Menu
+					</div>
+				</div>
+
+				<!-- Start article -->
+				<section class="article">
+					<h2>Animation Process</h2>
+					<p>
+						To understand how to achieve buttery smooth CSS animation, first we must understand how the browser renders elements. This timeline is called <strong><a href="https://medium.com/@luisvieira_gmr/understanding-the-critical-rendering-path-rendering-pages-in-1-second-735c6e45b47a" target="_blank">Critical Rendering Path.</a></strong>
+						<img src="img/article-01.svg">	
+					</p>
+					<h2>Using properties calculated in Layout phase</h2>
+					<p>
+						If you are using properties like left, right, top and bottom to animate, the browser will go through this whole flow for <strong>every frame.</strong>
+						<img src="img/article-02.svg">
+					</p>
+					<p>
+						So no wonder when using those properties to animate, it will be slow.
+					</p>
+					<p>
+						However, most modern browsers is smart enough to repaint only the changed area of the page, but while browsers go through this cycle very fast, the animation will not look smooth.
+					</p>
+					<h2>Animation affects child elements too</h2>
+					<p>
+						Another thing to note is with this type of animation, its children elements will also be recalculated, which slows down the reflow.
+					</p>
+					<p>
+						<img src="img/article-03.svg">
+					</p>
+
+					<h2>Animation done with GPU</h2>
+					<p>
+						To get the animation done with the GPU, we must utilize properties handled by the GPU only.
+						<img src="img/article-04.svg">
+					</p>
+					<h2>Using Transform</h2>
+					<img src="img/article-05.svg">
+					<p>
+						By using transform, the CPU just needs to provide a start and end calculation of the animation, and that's where the GPU fills in the gaps.
+					</p>
+
+
+
+					<h2>Conclusion</h2>
+					<p>
+						When animating, steer clear of using left, right, top and bottom properties to animate, as it uses the Layout step to generate it.
+					</p>
+					<p>
+						Instead, please use the transform CSS property wherever possible, as this affects the Composite step.
+					</p>
+					<p>
+						However, GPU still does have a limited memory and would still need a lot of processing power to animate each element. Can refer to <a href="https://www.smashingmagazine.com/2016/12/gpu-animation-doing-it-right/" target="_blank">this very comprehensive article</a> on the pros and cons of animating CSS with GPU.
+					</p>
+					<p>
+						<hr>
+						<strong>Furher reading:</strong>
+						<br><a href="https://www.smashingmagazine.com/2016/12/gpu-animation-doing-it-right/" target="_blank">CSS GPU Animation: Doing It Right</a>
+						<br><a href="https://medium.com/outsystems-experts/how-to-achieve-60-fps-animations-with-css3-db7b98610108" target="_blank">Smooth as Butter: Achieving 60 FPS Animations with CSS3</a>
+						<br><a href="https://ariya.io/2014/02/tricks-for-gpu-composited-css" target="_blank">Tricks for GPU Composited CSS</a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="app-menu">
+			<div class="app-menu__header">
+				<h2>Quick Menu</h2>
+				<i class="menu-close icon icon--close"></i>
+			</div>
+			<div class="app-menu__content">
+				<ul>
+					<li><a href="#">Overview</a></li>
+					<li><a href="#">Introduction</a></li>
+					<li><a href="#">How it Works</a></li>
+					<li><a href="#">FAQ</a></li>
+					<li><a href="#">Links</a></li>
+				</ul>
+				
+			</div>
+		</div>
+		
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+		<script src="script.js"></script>
+
+	</body>
+
+</html>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500px" height="313px" viewBox="0 0 500 313" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>article-03</title>
+    <desc>Created with Sketch.</desc>
+    <g id="article-03" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" stroke="#000000" stroke-width="2" x="1" y="1" width="498" height="311"></rect>
+        <rect id="Rectangle" stroke="#D09600" stroke-width="2" x="356" y="1" width="143" height="311"></rect>
+        <rect id="Rectangle" stroke="#D09600" stroke-width="2" x="366" y="13" width="122" height="29"></rect>
+        <rect id="Rectangle" stroke="#D09600" stroke-width="2" x="366" y="61" width="60" height="16"></rect>
+        <rect id="Rectangle" stroke="#D09600" stroke-width="2" x="366" y="96" width="60" height="16"></rect>
+        <rect id="Rectangle" stroke="#D09600" stroke-width="2" x="366" y="131" width="60" height="16"></rect>
+        <rect id="Rectangle" stroke="#D09600" stroke-width="2" x="366" y="166" width="60" height="16"></rect>
+        <text id="Affected:-The-elemen" font-family="OpenSans-Regular, Open Sans" font-size="18" font-weight="normal" fill="#D0A200">
+            <tspan x="264.459961" y="130">Affected:</tspan>
+            <tspan x="234.225586" y="154">The element</tspan>
+            <tspan x="190.31543" y="178">*and* its children</tspan>
+        </text>
+    </g>
+</svg>

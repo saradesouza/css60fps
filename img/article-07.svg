@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500px" height="146px" viewBox="0 0 500 146" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>article-07</title>
+    <desc>Created with Sketch.</desc>
+    <g id="article-07" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="OpenSans-SemiBold, Open Sans" font-size="15" font-weight="500">
+        <text id=".sidebar-menu-{--web">
+            <tspan x="14" y="25" fill="#727272">.sidebar-menu {</tspan>
+            <tspan x="14" y="45" fill="#727272">	</tspan>
+            <tspan x="42" y="45" font-family="OpenSans-Regular, Open Sans" font-weight="normal" fill="#727272">-webkit-transform: translateX(-100%);</tspan>
+            <tspan x="14" y="65" font-family="OpenSans-Regular, Open Sans" font-weight="normal" fill="#727272">			transform: translateX(-100%);</tspan>
+            <tspan x="14" y="85" font-family="OpenSans-Regular, Open Sans" font-weight="normal" fill="#727272">	transition: transform 300ms linear;</tspan>
+            <tspan x="14" y="105" font-family="OpenSans-Regular, Open Sans" font-weight="normal" fill="#727272">	</tspan>
+            <tspan x="42" y="105" font-family="OpenSans-Regular, Open Sans" font-weight="normal" fill="#003D81">will-change: transform;</tspan>
+            <tspan x="202.327148" y="105" fill="#727272"></tspan>
+            <tspan x="14" y="125" fill="#727272">}</tspan>
+        </text>
+    </g>
+</svg>

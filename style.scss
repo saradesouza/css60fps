@@ -1,0 +1,162 @@
+// @import url("normalise.css");
+
+$navy: #003d81;
+$grey: #767676;
+
+body {
+	position: relative;
+	box-sizing: border-box;
+    margin: 0;
+    font-size: 1rem;
+    h1, h2, h3 {
+		font-family: 'Alice', serif;
+		color: $navy;
+		font-weight: normal;
+	}
+	ul {
+		list-style-type: none;
+		padding: 0px;
+	}
+	p {
+		line-height: 1.4rem;
+	}
+}
+
+//Layout
+.layout--wrap {
+	display: flex;
+	position: relative;
+	z-index: 5;
+	background-color: white;
+	padding-bottom: 30px;
+	.layout {
+		width: 100%;
+		max-width: 500px;
+    	margin: 0 auto;
+    	padding: 0px 20px;
+		font-family: 'Roboto', sans-serif;
+		color: $grey;
+		h1 {
+			text-align: center;
+		}
+	}
+}
+
+.article {
+	img {
+		margin: 20px 0;
+	}
+}
+
+.menu-icon {
+	display: block;
+	max-width: 100px;
+	padding: 10px 15px;
+	color: white;
+	background-color: $navy;
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 3px;
+	cursor: pointer;
+	&:hover {
+		background-color: lighten($navy, 10%);
+		transition: background-color 0.2s;
+	}
+}
+
+.icon {
+	display: block;
+	&--close {
+		background-image: url('img/close.svg');
+		background-size: 30px 30px;
+		width: 30px;
+		height: 30px;
+		opacity: 0.9;
+		cursor: pointer;
+		transition: all 0.2s;
+		&:hover {
+			opacity: 1;
+			transform: rotate(90deg);
+		}
+	}
+}
+
+//Menu
+.app-menu {
+	height: 100vh;
+	width: 300px;
+	background-color: $navy;
+	display: block;
+	top: 0;
+	right: 0;
+	position: fixed;
+	z-index: 1;
+	color: white;
+	&__header {
+		background-color: darken($navy, 5%);
+		padding: 20px;
+		display: flex;
+    	justify-content: space-between;
+		h2 {
+			color: white;
+			margin: 0px;
+		}
+	}
+	&__content {
+		ul {
+			margin-top: 0px;
+		}
+		li {
+			cursor: pointer;
+			border-bottom: 1px solid darken($navy, 3%);
+			a {
+				color: white;
+				text-decoration: none;
+				font-family: 'Roboto', sans-serif;
+				opacity: 0.8;
+				display: block;
+    			padding: 20px;
+				&:hover {
+					opacity: 1;
+					transition: all 0.1s;
+					background-color: lighten($navy, 3%);
+				}
+			}
+		}
+	}
+}
+
+// WRONG WAY ANIMATION====
+// You should avoid using transitions with the left/top/right/bottom properties.
+// Those don’t create a fluid animation because they have the browser creating
+// layouts each time, which will affect all of their children.
+
+// .layout--wrap {
+// 	left: 0;
+// 	transition: all 200ms linear;
+// }
+// .layout--wrap.open {
+// 	left: -300px;
+// }
+
+// RIGHT WAY ANIMATION====
+// The transform properties affect a Composite.
+// Here we’re telling the browser that layers will be painted and ready to go
+// as soon as the animation starts, so there are fewer hiccups when rendering 
+// the animation.
+
+.layout--wrap {
+	-webkit-transform: none;
+			transform: none;
+	transition: transform 400ms ease-out;
+	will-change: transform;
+	//will-change:transform promotes the elements to another layer,
+	//so the browser doesn’t have to consider the layout render or painting.
+	
+}
+.layout--wrap.open {
+	-webkit-transform: translateX(-300px);
+			transform: translateX(-300px);
+	transition: transform 200ms ease-in-out;
+}
+

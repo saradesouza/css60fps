@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500px" height="178px" viewBox="0 0 500 178" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>article-04</title>
+    <desc>Created with Sketch.</desc>
+    <g id="article-04" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M0,62 L82.3936616,62 C102.797887,99.4731899 113,118.806523 113,120 C113,121.193477 102.797887,140.52681 82.3936616,178 L0,178 L0,62 Z" id="Rectangle" fill="#003D81"></path>
+        <polygon id="Rectangle" fill="#003D81" points="95 62 205.264491 62 236 120 205.264491 178 95 178 124.935547 120"></polygon>
+        <polygon id="Rectangle" fill="#003D81" points="218 62 327.482473 62 358 120 327.482473 178 218 178 247.452148 120"></polygon>
+        <polygon id="Rectangle" fill="#D09600" points="338 62 500 62 500 178 338 178 367.710864 120"></polygon>
+        <text id="Styles" font-family="OpenSans-Regular, Open Sans" font-size="18" font-weight="normal" fill="#FFFFFF">
+            <tspan x="23.2290039" y="127">Styles</tspan>
+        </text>
+        <text id="Layout" font-family="OpenSans-Regular, Open Sans" font-size="18" font-weight="normal" fill="#FFFFFF">
+            <tspan x="145" y="127">Layout</tspan>
+        </text>
+        <text id="Paint" font-family="OpenSans-Regular, Open Sans" font-size="18" font-weight="normal" fill="#FFFFFF">
+            <tspan x="272" y="127">Paint</tspan>
+        </text>
+        <text id="Composite" font-family="OpenSans-Regular, Open Sans" font-size="18" font-weight="normal" fill="#FFFFFF">
+            <tspan x="390.26709" y="127">Composite</tspan>
+        </text>
+        <path d="M489,10 L489,54 C489,58.418278 488.119493,62 487.033333,62 L434.938753,62 L372.966667,62 C371.880507,62 371,58.418278 371,54 L371,10" id="Rectangle" stroke="#B6B6B6" stroke-width="2" transform="translate(430.000000, 36.000000) rotate(-180.000000) translate(-430.000000, -36.000000) "></path>
+        <polyline id="Path-3" stroke="#A5A5A5" stroke-width="2" points="362 32 370.81258 41 380 32"></polyline>
+        <polyline id="Path-3" stroke="#A5A5A5" stroke-width="2" transform="translate(488.000000, 36.500000) rotate(-180.000000) translate(-488.000000, -36.500000) " points="479 32 487.81258 41 497 32"></polyline>
+        <text id="Rendered-in-this-sta" font-family="OpenSans-SemiBold, Open Sans" font-size="15" font-weight="500" line-spacing="17" fill="#727272">
+            <tspan x="393.693848" y="36">Rendered</tspan>
+            <tspan x="385" y="53">in this stage</tspan>
+        </text>
+    </g>
+</svg>

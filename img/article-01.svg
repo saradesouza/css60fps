@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500px" height="384px" viewBox="0 0 500 384" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>article-01</title>
+    <desc>Created with Sketch.</desc>
+    <g id="article-01" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M0,68 L82.3936616,68 C102.797887,105.47319 113,124.806523 113,126 C113,127.193477 102.797887,146.52681 82.3936616,184 L0,184 L0,68 Z" id="Rectangle" fill="#D09600"></path>
+        <polygon id="Rectangle" fill="#D09600" points="95 68 205.264491 68 236 126 205.264491 184 95 184 124.935547 126"></polygon>
+        <polygon id="Rectangle" fill="#D09600" points="218 68 327.482473 68 358 126 327.482473 184 218 184 247.452148 126"></polygon>
+        <polygon id="Rectangle" fill="#003D81" points="338 68 500 68 500 184 338 184 367.710864 126"></polygon>
+        <text id="Styles" font-family="OpenSans-Regular, Open Sans" font-size="18" font-weight="normal" fill="#FFFFFF">
+            <tspan x="23.2290039" y="133">Styles</tspan>
+        </text>
+        <text id="Layout" font-family="OpenSans-Regular, Open Sans" font-size="18" font-weight="normal" fill="#FFFFFF">
+            <tspan x="145" y="133">Layout</tspan>
+        </text>
+        <text id="Paint" font-family="OpenSans-Regular, Open Sans" font-size="18" font-weight="normal" fill="#FFFFFF">
+            <tspan x="272" y="133">Paint</tspan>
+        </text>
+        <text id="Composite" font-family="OpenSans-Regular, Open Sans" font-size="18" font-weight="normal" fill="#FFFFFF">
+            <tspan x="390.26709" y="133">Composite</tspan>
+        </text>
+        <polyline id="Path" stroke="#D0A200" stroke-width="2" transform="translate(163.500000, 53.500000) rotate(-180.000000) translate(-163.500000, -53.500000) " points="2 45 2 62 325 62 325 45"></polyline>
+        <polyline id="Path" stroke="#003D81" stroke-width="2" transform="translate(419.500000, 53.500000) rotate(-180.000000) translate(-419.500000, -53.500000) " points="340 45 340 62 499 62 499 45"></polyline>
+        <text id="GPU" font-family="OpenSans-Bold, Open Sans" font-size="20" font-weight="bold" line-spacing="18" fill="#003D81">
+            <tspan x="399.038086" y="29.6230469">GPU</tspan>
+        </text>
+        <text id="Browser-starts-drawi" font-family="OpenSans-Regular, Open Sans" font-size="15" font-weight="normal" line-spacing="18" fill="#003D81">
+            <tspan x="368.213623" y="212">Browser starts </tspan>
+            <tspan x="358" y="230">drawing all layers </tspan>
+            <tspan x="385.154541" y="248">in screen.</tspan>
+        </text>
+        <text id="CPU" font-family="OpenSans-Bold, Open Sans" font-size="20" font-weight="bold" line-spacing="18" fill="#D0A200">
+            <tspan x="123.407227" y="29.6230469">CPU</tspan>
+        </text>
+        <text id="Recalculate-Style" font-family="OpenSans-Regular, Open Sans" font-size="15" font-weight="normal" line-spacing="18" fill="#D09600">
+            <tspan x="0" y="206">Recalculate </tspan>
+            <tspan x="0" y="224">Style</tspan>
+        </text>
+        <text id="Start-generating-sha" font-family="OpenSans-Regular, Open Sans" font-size="15" font-weight="normal" line-spacing="18" fill="#D09600">
+            <tspan x="95" y="206">Start generating </tspan>
+            <tspan x="95" y="224">shape &amp; position </tspan>
+            <tspan x="95" y="242">for each </tspan>
+            <tspan x="95" y="260">elements</tspan>
+        </text>
+        <text id="Browser-fill-in-pixe" font-family="OpenSans-Regular, Open Sans" font-size="15" font-weight="normal" line-spacing="18" fill="#D09600">
+            <tspan x="225" y="206">Browser fill in </tspan>
+            <tspan x="225" y="224">pixels for each </tspan>
+            <tspan x="225" y="242">element into </tspan>
+            <tspan x="225" y="260">layers.</tspan>
+        </text>
+        <path d="M228,24 L358,24" id="Line" stroke="#C6C6C6" stroke-width="2" stroke-linecap="square"></path>
+        <polyline id="Path-2" stroke="#C6C6C6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="353 18 360 24 353 30"></polyline>
+        <text id="Send-information" font-family="OpenSans-SemiBold, Open Sans" font-size="12" font-weight="500" fill="#909090">
+            <tspan x="240.006836" y="13">Send information</tspan>
+        </text>
+        <text id="Width,-height,-margi" font-family="OpenSans-SemiBold, Open Sans" font-size="15" font-weight="500" fill="#D09600">
+            <tspan x="95" y="300">Width, height, </tspan>
+            <tspan x="95" y="320">margins, left, </tspan>
+            <tspan x="95" y="340">right, top, </tspan>
+            <tspan x="95" y="360">bottom</tspan>
+        </text>
+        <text id="Box-shadow,-border-r" font-family="OpenSans-SemiBold, Open Sans" font-size="15" font-weight="500" fill="#D09600">
+            <tspan x="225" y="300">Box-shadow, </tspan>
+            <tspan x="225" y="320">border-radius, </tspan>
+            <tspan x="225" y="340">color, </tspan>
+            <tspan x="225" y="360">background-</tspan>
+            <tspan x="225" y="380">color</tspan>
+        </text>
+        <text id="Position,-scale,-rot" font-family="OpenSans-SemiBold, Open Sans" font-size="15" font-weight="500" fill="#003D81">
+            <tspan x="353" y="300">Position, scale, </tspan>
+            <tspan x="353" y="320">rotation, opacity</tspan>
+        </text>
+        <text id="Properties-affected:" font-family="OpenSans-SemiBold, Open Sans" font-size="15" font-weight="500" fill="#727272">
+            <tspan x="0" y="299">Properties</tspan>
+            <tspan x="0" y="319">affected:</tspan>
+        </text>
+        <path d="M0,273.5 L500,273.5" id="Line-2" stroke="#EDEDED" stroke-linecap="square"></path>
+    </g>
+</svg>
